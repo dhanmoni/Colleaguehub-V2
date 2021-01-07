@@ -13,8 +13,8 @@ let HEIGHT_MIN = Dimensions.get('window').height;
 let WIDTH_MIN = Dimensions.get('window').width;
 const TEXTSIZE = Dimensions.get('window').width ;
 const ACCESS_TOKEN = 'Access_Token'
-import AllPosts from '../Component5/allPosts'
-import Following from '../Component5/followingPost'
+import AllPosts from '../PostScreenComponent/allPosts'
+import Following from '../PostScreenComponent/followingPost'
 
 class StoryScreen extends Component {
   static navigationOptions={

@@ -5,35 +5,32 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
 
-import HomeScreen from '../Component1/HomeScreen';
-import SearchScreen from '../Component1/SearchScreen';
-import UserScreen from '../Component1/UserScreen';
-import UserScreen2 from '../Component1/UserScreen2';
+import HomeScreen from '../MainScreenComponent/HomeScreen';
+import SearchScreen from '../MainScreenComponent/SearchScreen';
+import UserScreen from '../MainScreenComponent/UserScreen';
+import UserScreen2 from '../MainScreenComponent/UserScreen2';
 
 import ProfileItem from '../profiles/profileItem'
-import StoryScreen from '../Component1/StoryScreen'
+import StoryScreen from '../MainScreenComponent/StoryScreen'
 
-import SignUpPage from '../Component2/SignUpPage'
-import CreateProfile1 from '../Component2/CreateProfile1'
-import CreateProfile2 from '../Component2/CreateProfile2'
+import SignUpPage from '../AuthScreenComponent/SignUpPage'
+import CreateProfile1 from '../AuthScreenComponent/CreateProfile1'
+import CreateProfile2 from '../AuthScreenComponent/CreateProfile2'
 
-import RegisterPage from '../Component2/RegisterPage'
-import UploadAvatar from '../Component2/UploadAvatar'
-import LoginPage from '../Component2/LoginPage'
+import RegisterPage from '../AuthScreenComponent/RegisterPage'
+import UploadAvatar from '../AuthScreenComponent/UploadAvatar'
+import LoginPage from '../AuthScreenComponent/LoginPage'
 
-import PostScreen from '../Component3/PostScreen'
-import CommentPage from '../Component3/CommentPage'
-import LikesPage from '../Component3/LikesPage'
+import PostScreen from '../PostActionScreenComponent/PostScreen'
+import CommentPage from '../PostActionScreenComponent/CommentPage'
+import LikesPage from '../PostActionScreenComponent/LikesPage'
 
-import EditProfile from '../Component4/editProfile'
-import NotificationSetting from '../Component4/notificationSetting'
-import UpgradetoPro from '../Component4/upgradetoPro'
-import BlockedUser from '../Component4/BlockedUser'
-import AccountPage from '../Component4/AccountPage'
-
-
-
-import SettingPage from '../Component4/settingsPage'
+import EditProfile from '../SettingsRelatedScreenComponent/editProfile'
+import NotificationSetting from '../SettingsRelatedScreenComponent/notificationSetting'
+import UpgradetoPro from '../SettingsRelatedScreenComponent/upgradetoPro'
+import BlockedUser from '../SettingsRelatedScreenComponent/BlockedUser'
+import AccountPage from '../SettingsRelatedScreenComponent/AccountPage'
+import SettingPage from '../SettingsRelatedScreenComponent/settingsPage'
 import LinearGradient from 'react-native-linear-gradient';
 
 
